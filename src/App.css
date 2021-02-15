@@ -1,3 +1,21 @@
+/*some css I added*/
+input[type=”file”] {
+  display: inline-block;
+ }
+ .table {
+  max-width: 90%;
+  margin: 10px;
+ }
+ .table th {
+  text-align: center;
+ }
+
+ img {
+   height: 500px;
+   width: 500px;
+ }
+ /*end of my css*/
+
 .App {
   text-align: center;
 }
@@ -15,7 +33,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 30vh;
   display: flex;
   flex-direction: column;
   align-items: center;
